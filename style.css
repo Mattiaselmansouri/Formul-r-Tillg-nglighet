@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange; /* Change the background color to orange */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+ 
+
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px;
+    width: 450px;
+    border-radius: 12px;
+    background-color: white;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea, 
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+  }
+  
+  .inputName {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+  }
+  
+  .names {
+    display: flex;
+    gap: 12px;
+  }
+  
+
+  .required-asterisk {
+    color: red;
+    margin-left: 2px;
+}
+    .button {
+margin-left: 31%;
+    width: 40%;
+    padding: 10px;
+    background-color: #ffc124;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
